@@ -1,0 +1,20 @@
+{
+    "name": "trainning/ecom",
+    "description": "Trainning Ecom MVC",
+    "authors": [
+        {
+            "name": "msallesilva",
+            "email": "msallesilva@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Repository\\":"src/Repository/",
+            "Models\\":"app/Models/",
+            "Views\\":"app/Views/",
+            "Controllers\\":"app/Controllers/"
+
+            }
+    }    
+}
